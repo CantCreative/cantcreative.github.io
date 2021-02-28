@@ -1,0 +1,13 @@
+.position {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+#body {
+    max-width: 800px;
+    margin: auto;
+    font-family: sans-serif;
+}

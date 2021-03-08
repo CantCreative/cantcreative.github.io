@@ -4,10 +4,39 @@ html, body {
 }
 
 body {
-    background-color: black;
-    font-family: 'Source Sans Pro', sans-serif;
-    color:white;
+    font-family: 'Source Sans Pro', sans-serif;  
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+#links {
+    display: flex;
+    justify-content: center;
+}
+
+#links a {
+    margin: 0px 12px;
+}
+
+#button {
+    background-color: black;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.dark #button {
+    background-color:white;
+    color: black;
 }
